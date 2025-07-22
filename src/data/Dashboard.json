@@ -1,0 +1,67 @@
+[
+  {
+    "field": "id",
+    "headerName": "Id",
+    "type": "string"
+  },
+  {
+    "field": "typeName",
+    "headerName": "TypeName",
+    "type": "string"
+  },
+  {
+    "field": "statusName",
+    "headerName": "StatusName",
+    "type": "string"
+  },
+  {
+    "field": "processName",
+    "headerName": "ProcessName",
+    "type": "string"
+  },
+  {
+    "field": "customerName",
+    "headerName": "CustomerName",
+    "type": "string"
+  },
+  {
+    "field": "customerAddress",
+    "headerName": "CustomerAddress",
+    "type": "string"
+  },
+  {
+    "field": "phoneNumber",
+    "headerName": "PhoneNumber",
+    "type": "string"
+  },
+  {
+    "field": "phoneNumber2",
+    "headerName": "PhoneNumber2",
+    "type": "string"
+  },
+  {
+    "field": "locationName",
+    "headerName": "LocationName",
+    "type": "string"
+  },
+  {
+    "field": "createdBy",
+    "headerName": "CreatedBy",
+    "type": "string"
+  },
+  {
+    "field": "createdOn",
+    "headerName": "CreatedOn",
+    "type": "dateTime"
+  },
+  {
+    "field": "lastUpdatedBy",
+    "headerName": "LastUpdatedBy",
+    "type": "string"
+  },
+  {
+    "field": "lastUpdatedOn",
+    "headerName": "LastUpdatedOn",
+    "type": "string"
+  }
+]

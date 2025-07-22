@@ -1,0 +1,10 @@
+@media only screen and (max-width: 639px) {
+  .hm {
+    display: none;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .hd {
+    display: none;
+  }
+}

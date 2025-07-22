@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dashboard",
+    "href": "/",
+    "adminModule": false,
+    "customerModule": false
+  },
+  {
+    "name": "Go to form",
+    "href": "/search",
+    "adminModule": false,
+    "customerModule": true
+  },
+  {
+    "name": "Submit form",
+    "href": "/form",
+    "adminModule": false,
+    "customerModule": false
+  },
+  {
+    "name": "Activity log",
+    "href": "/activity",
+    "adminModule": true,
+    "customerModule": false
+  },
+  {
+    "name": "Admin modules",
+    "href": "/admin",
+    "adminModule": true,
+    "customerModule": false
+  }
+]
