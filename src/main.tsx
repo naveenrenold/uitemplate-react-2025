@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
 import Header from "./component/Header/Header";
-import { BrowserRouter, Routes } from "react-router";
+import { BrowserRouter, Route, Routes } from "react-router";
 import { useState } from "react";
 import LoginContextProvider from "./context/LoginContextProvider";
 import { ThemeProvider } from "@emotion/react";
@@ -14,6 +14,7 @@ import { AccountInfo } from "@azure/msal-browser";
 import { Role } from "./Types/Component/Role";
 import { SnackBarProps } from "./Types/ComponentProps/SnackBarProps";
 import httpClient from "./helper/httpClient";
+import Home from "./component/Home/Home";
 
 function Main() {
   let [isDrawerOpen, updateIsDrawerOpen] = useState(false);
@@ -41,20 +42,26 @@ function Main() {
     return (
       <Routes>
         {role === "Admin" ? (
-          <>{/* <Route path="admin" element={<Admin />} />             */}</>
+          <>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+          </>
         ) : (
           <></>
         )}
         {role === "Employee" || role === "Admin" ? (
           <>
-            {/* <Route path="form/:formId" element={<Form />} />
-            <Route path="/" element={<DashBoard />} /> */}
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
           </>
         ) : (
           <></>
         )}
         {role === "Customer" ? (
-          <>{/* <Route path="/" element={<Search />} /> */}</>
+          <>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+          </>
         ) : (
           <></>
         )}

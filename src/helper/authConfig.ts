@@ -38,11 +38,11 @@ const msalConfig: msal.Configuration = {
 
 const graphApiScopes = {
   scopes: [
-    // "Directory.ReadWrite.All",
-    // "GroupMember.ReadWrite.All",
-    // "User.ReadWrite.All",
-    // "UserAuthenticationMethod.ReadWrite.All",
-    // "AuditLog.Read.All",
+    "Directory.ReadWrite.All",
+    "GroupMember.ReadWrite.All",
+    "User.ReadWrite.All",
+    "UserAuthenticationMethod.ReadWrite.All",
+    "AuditLog.Read.All",
   ],
 };
 
