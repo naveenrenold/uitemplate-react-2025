@@ -38,16 +38,16 @@ const msalConfig: msal.Configuration = {
 
 const graphApiScopes = {
   scopes: [
-    "Directory.ReadWrite.All",
-    "GroupMember.ReadWrite.All",
-    "User.ReadWrite.All",
-    "UserAuthenticationMethod.ReadWrite.All",
-    "AuditLog.Read.All",
+    // "Directory.ReadWrite.All",
+    // "GroupMember.ReadWrite.All",
+    // "User.ReadWrite.All",
+    // "UserAuthenticationMethod.ReadWrite.All",
+    // "AuditLog.Read.All",
   ],
 };
 
 const webApiScopes = {
-  scopes: ["api://172d1695-b52e-45ae-88ae-acbbad8c34ee/.default"],
+  scopes: [], //["api://172d1695-b52e-45ae-88ae-acbbad8c34ee/.default"],
 };
 
 export { msalConfig, graphApiScopes, webApiScopes };

@@ -1,8 +1,5 @@
+import { validateEmail, validatePhoneNumber } from "../../helper/validation";
 import { severity } from "../../Types/ComponentProps/ButtonProps";
-import {
-  validateEmail,
-  validatePhoneNumber,
-} from "../../component/Admin/Admin";
 
 export interface textFieldString {
   value: string | null;
